@@ -26,6 +26,7 @@ jobs:
         upstream_repository: tiann/KernelSU
         upstream_branch: main
         target_branch: main
+        git_pull_rebase_config: false
         git_pull_args: --strategy=ours
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
 
